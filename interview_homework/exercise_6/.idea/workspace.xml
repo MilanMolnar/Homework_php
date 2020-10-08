@@ -10,7 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3ec923-1da2-46a2-81a9-08cd5cc5d175" name="Default Changelist" comment="" />
+    <list default="true" id="e9e1415b-ab0d-4b6a-a54c-ac0e0fd72c0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise_5/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +24,18 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1ib0Fg4lSuYQTwS5k2HyDG6XL9Y" />
+  <component name="ProjectId" id="1ib4mtx2EKvZeOFwqQ8Yad135vw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +44,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercise_6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,12 +56,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cf3ec923-1da2-46a2-81a9-08cd5cc5d175" name="Default Changelist" comment="" />
-      <created>1602160881888</created>
+      <changelist id="e9e1415b-ab0d-4b6a-a54c-ac0e0fd72c0c" name="Default Changelist" comment="" />
+      <created>1602163120088</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602160881888</updated>
-      <workItem from="1602160882952" duration="1791000" />
+      <updated>1602163120088</updated>
+      <workItem from="1602163121143" duration="2997000" />
     </task>
     <servers />
   </component>
@@ -66,13 +80,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1602163118685">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1602163141737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602163118685" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1602161987641">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602161987641" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602163141737" />
   </component>
 </project>
