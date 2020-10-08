@@ -1,0 +1,24 @@
+CREATE TABLE ember (
+	id INT(6) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	nev TEXT NOT NULL,
+	lakhely TEXT NOT NULL,
+	szuletes TEXT NOT NULL
+);
+
+CREATE TABLE auto (
+	id INT(6) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    marka TEXT NOT NULL,
+    tipus TEXT NOT NULL,
+    ar INT NOT NULL,
+    ev DATE NOT NULL,
+    muszaki BOOLEAN NOT NULL,
+    ember_id INT NOT NULL,
+    FOREIGN KEY (ember_id) REFERENCES ember(id)
+);
+
+CREATE TABLE szerviz(
+	id INT(6) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    auto_id INT NOT NULL,
+    FOREIGN KEY (auto_id) REFERENCES auto(id),
+    datum DATE NOT NULL
+);
