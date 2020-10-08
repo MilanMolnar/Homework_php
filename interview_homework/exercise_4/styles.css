@@ -42,3 +42,15 @@ li:hover li a:hover {
 #drop-nav li ul li {
     border-top: 0px;
 }
+
+#nav-container{
+    width : 400px;
+    margin-left: calc(50% - 170px);
+    margin-top: 1em;
+}
+
+#title{
+    font-size: xx-large;
+    text-align: center;
+    font-family: Arial;
+}

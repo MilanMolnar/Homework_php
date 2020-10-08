@@ -10,3 +10,4 @@ function processString($text){
     //replace all special characters with dashes
     return preg_replace('/[^A-Za-z0-9\-]/', '-', $unaccented);
 }
+echo processString("á|éa Üüz:öÖ");

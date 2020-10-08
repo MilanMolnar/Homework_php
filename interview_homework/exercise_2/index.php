@@ -22,9 +22,10 @@
 
         //if no errors carry on
         if (!isset($error)) {
+            echo "<p style='color:#5ae23e'>Data saved !</p>";
             $csvFile = "users.csv";
-            $file_open = fopen($csvFile, 'w') or die("Cant open file");
-            $stringData = "phone : " . $phone . ','. "email : " . $email . "\n";
+            $file_open = fopen($csvFile, 'a') or die("Cant open file");
+            $stringData = $phone . ','. $email .  "\n";
             fwrite($file_open, $stringData);
         }
     }
