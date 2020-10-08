@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e1415b-ab0d-4b6a-a54c-ac0e0fd72c0c" name="Default Changelist" comment="" />
+    <list default="true" id="22d6fe31-65cd-46c3-98c5-17c045afce67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise_6/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,18 +22,10 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1ib4mtx2EKvZeOFwqQ8Yad135vw" />
+  <component name="ProjectId" id="1ibBTfnm8UTlvNeHtTgD7mAue3o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,24 +34,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercise_7" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e9e1415b-ab0d-4b6a-a54c-ac0e0fd72c0c" name="Default Changelist" comment="" />
-      <created>1602163120088</created>
+      <changelist id="22d6fe31-65cd-46c3-98c5-17c045afce67" name="Default Changelist" comment="" />
+      <created>1602166420873</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602163120088</updated>
-      <workItem from="1602163121143" duration="3212000" />
+      <updated>1602166420873</updated>
+      <workItem from="1602166421931" duration="321000" />
     </task>
     <servers />
   </component>
@@ -75,13 +63,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1602166419524">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1602166436945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602166419524" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1602163141737">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602163141737" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602166436945" />
   </component>
 </project>
