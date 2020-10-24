@@ -13,9 +13,10 @@
 
 ```sh
 cd master
-cd exercise{EXERCISE_NUMBER}
+cd interview_homework
 php -S localhost:{PORT_NUMBER}
 ```
+You will land on the main (index.html) page, you can choose the exercises and read its shortened description.
 
 ## Tech
 
