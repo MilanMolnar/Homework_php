@@ -13,7 +13,9 @@
     border-radius: 6px;
     height: 20px;
 }
-
+#title{
+    font-size: xx-large;
+}
 li{
     height: 30px;
     width: 150px;
@@ -23,4 +25,23 @@ li{
     margin-top: 6px;
     margin-left: calc(50% - 100px);
     color: dimgray;
+}
+
+/* Resize elements if the screen is less than 600px wide */
+@media only screen and (max-width: 600px) {
+    #container{
+        width: 300px;
+        margin-left: calc(50% - 150px);
+        border: 1px solid dimgray;
+        text-align: center;
+        border-radius: 10px;
+        min-height: 500px;
+    }
+    li{
+        width: 100px;
+        margin-left: calc(50% - 75px);
+    }
+    #title{
+        font-size: x-large;
+    }
 }

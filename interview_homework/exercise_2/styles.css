@@ -1,0 +1,30 @@
+#title{
+    font-size: xx-large;
+    margin-top: 1em;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+    min-height: 300px;
+    margin-top: 3em;
+    border: solid 1px black;
+    width: 300px;
+    margin-left: calc(50% - 150px)
+}
+
+@media screen and (max-width: 600px){
+    #title{
+        font-size: x-large;
+    }
+    #form{
+        text-align: center;
+        min-height: 300px;
+        margin-top: 3em;
+        border: solid 1px black;
+        width: 200px;
+        margin-left: calc(50% - 100px)
+    }
+}

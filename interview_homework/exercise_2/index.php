@@ -1,8 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercise 2</title>
+</head>
+<body>
 
-<h1 style="text-align: center; font-size: xx-large;margin-top: 1em;font-family: Arial, sans-serif; font-weight: bolder">Falatozz.hu Homework</h1>
-<div style="text-align: center;min-height: 300px; margin-top: 3em; border: solid 1px black; width: 300px; margin-left: calc(50% - 150px)">
+<h1 id="title" >Falatozz.hu Homework</h1>
+<div id="form">
     <?php
-
     if (isset($_POST['submit'])) {
 
         //collect form data
@@ -24,22 +31,27 @@
         if (!isset($error)) {
             echo "<p style='color:#5ae23e'>Data saved !</p>";
             $csvFile = "users.csv";
-            $file_open = fopen($csvFile, 'a') or die("Cant open file");
+            $fileOpen = fopen($csvFile, 'a') or die("Cant open file");
             $stringData = $phone . ','. $email .  "\n";
-            fwrite($file_open, $stringData);
+            fwrite($fileOpen, $stringData);
         }
     }
     //if their are errors display them
     if (isset($error)) {
-        foreach ($error as $error) {
-            echo "<p style='color:#ff0000'>$error</p>";
+        foreach ($error as $err) {
+            echo "<p style='color:#ff0000'>$err</p>";
         }
     }
     ?>
 
-<form action='' method='post'>
-    <p><label>Phone</label><br><input type='text' name='phone' value=''></p>
-    <p><label>Email</label><br><input type='text' name='email' value=''></p>
-    <p><input type='submit' name='submit' value='Submit'></p>
-</form>
+    <form action='' method='post'>
+        <p><label>Phone</label><br>
+            <input type='text' name='phone' placeholder="E.g.: +303003030" value=''></p>
+        <p><label>Email</label><br>
+            <input type='text' name='email' placeholder="E.g.: example@email.com" value=''></p>
+        <p><input type='submit' name='submit' value='Submit'></p>
+    </form>
 </div>
+
+</body>
+</html>
